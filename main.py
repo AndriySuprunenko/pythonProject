@@ -1,3 +1,6 @@
-# some text
-print("Hello World", 5, 9, sep=', ')
-print("Hello Andrii", 5, 9, sep=', ')
+num = int(input("Enter number: "))
+
+if num <= 5:
+    print("Sorry you lose")
+else:
+    print("Congratulations, you win")
